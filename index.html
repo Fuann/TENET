@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>TENET: A Time-reversal Enhancement Network for noise-robust ASR</title>
+    <style>
+        h1, h2, p {font-family: "Raleway", Arial, sans-serif}
+        h1 {letter-spacing: 3px;}
+        p {letter-spacing: 2px; font-size: 18px; font-weight: 800; text-align: center;}
+        table {table-layout: fixed; text-align: center; width: 100%;}
+        img {width: 100%; zoom: 1}
+        audio {width: 225px;}
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="w3-panel w3-center w3-opacity" style="padding:30px 20px 30px 20px;">
+    <h1>TENET: A Time-reversal Enhancement Network for noise-robust ASR</h1>
+    <br>
+    <h1 class="w3-large">Authors:  Fu-An Chao, Shao-Wei Fan Jiang, Bi-Cheng Yan, Jeih-weih Hung, Berlin Chen</h1>
+    <br>
+    <hr style="height:1px; border-top:1px solid #555555; width:100%;">
+    </header>
+
+    <div class="container">
+        <table>
+            <p> Sample 1 - I am now unemployed.</p>
+            <p>(p232_132, DEMAND)</p>
+            <br>
+            <tr>
+                <th>Clean</th>
+                <th>Noisy</th>
+                <th>PFPL</th>
+                <th>MetricGAN+</th>
+                <th>DCCRN</th>
+                <th>TENET</th>
+            </tr>
+            <tr>
+                <th><audio controls style="" src="wavs/p232_132_clean.wav"> </audio></th>
+                <th><audio controls style="" src="wavs/p232_132_noisy.wav"> </audio></th>
+                <th><audio controls style="" src="wavs/p232_132_pfpl.wav"> </audio></th>
+                <th><audio controls style="" src="wavs/p232_132_metricgan+.wav"> </audio></th>
+                <th><audio controls style="" src="wavs/p232_132_dccrn.wav"> </audio></th>
+                <th><audio controls style="" src="wavs/p232_132_tenet.wav"> </audio></th>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <table>
+            <p> Sample 2 - A deadline is still essential. </p>
+            <p>(p232_203, DEMAND)</p>
+            <br>
+            <tr>
+                <th>Clean</th>
+                <th>Noisy</th>
+                <th>PFPL</th>
+                <th>MetricGAN+</th>
+                <th>DCCRN</th>
+                <th>TENET</th>
+            </tr>
+            <tr>
+                <th><audio controls style="" src="wavs/p232_203_clean.wav"> </audio></th>
+                <th><audio controls style="" src="wavs/p232_203_noisy.wav"> </audio></th>
+                <th><audio controls style="" src="wavs/p232_203_pfpl.wav"> </audio></th>
+                <th><audio controls style="" src="wavs/p232_203_metricgan+.wav"> </audio></th>
+                <th><audio controls style="" src="wavs/p232_203_dccrn.wav"> </audio></th>
+                <th><audio controls style="" src="wavs/p232_203_tenet.wav"> </audio></th>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <table>
+            <p> Sample 3 - We have just got to keep this feet on the ground.</p>
+            <p>(p232_415, QUT-NOISE)</p>
+            <br>
+            <tr>
+                <th>Clean</th>
+                <th>Noisy</th>
+                <th>PFPL</th>
+                <th>MetricGAN+</th>
+                <th>DCCRN</th>
+                <th>TENET</th>
+            </tr>
+            <tr>
+                <th><audio controls style="" src="wavs/p232_415_clean(qut).wav"> </audio></th>
+                <th><audio controls style="" src="wavs/p232_415_noisy(qut).wav"> </audio></th>
+                <th><audio controls style="" src="wavs/p232_415_pfpl(qut).wav"> </audio></th>
+                <th><audio controls style="" src="wavs/p232_415_metricgan+(qut).wav"> </audio></th>
+                <th><audio controls style="" src="wavs/p232_415_dccrn(qut).wav"> </audio></th>
+                <th><audio controls style="" src="wavs/p232_415_tenet(qut).wav"> </audio></th>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <table>
+            <p> Sample 4 - The rainbow is a division of white light into many beautiful colors.</p>
+            <p>(p257_007, QUT-NOISE)</p>
+            <br>
+            <tr>
+                <th>Clean</th>
+                <th>Noisy</th>
+                <th>PFPL</th>
+                <th>MetricGAN+</th>
+                <th>DCCRN</th>
+                <th>TENET</th>
+            </tr>
+            <tr>
+                <th><audio controls style="" src="wavs/p257_007_clean(qut).wav"> </audio></th>
+                <th><audio controls style="" src="wavs/p257_007_noisy(qut).wav"> </audio></th>
+                <th><audio controls style="" src="wavs/p257_007_pfpl(qut).wav"> </audio></th>
+                <th><audio controls style="" src="wavs/p257_007_metricgan+(qut).wav"> </audio></th>
+                <th><audio controls style="" src="wavs/p257_007_dccrn(qut).wav"> </audio></th>
+                <th><audio controls style="" src="wavs/p257_007_tenet(qut).wav"> </audio></th>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <table>
+            <p> Sample 5 - When a man looks for something beyond his reach, his friends say he is looking for the pot of gold at the end of the rainbow. </p>
+            <p>(p257_011, QUT-NOISE)</p>
+            <br>
+            <tr>
+                <th>Clean</th>
+                <th>Noisy</th>
+                <th>PFPL</th>
+                <th>MetricGAN+</th>
+                <th>DCCRN</th>
+                <th>TENET</th>
+            </tr>
+            <tr>
+                <th><audio controls style="" src="wavs/p257_011_clean(qut).wav"> </audio></th>
+                <th><audio controls style="" src="wavs/p257_011_noisy(qut).wav"> </audio></th>
+                <th><audio controls style="" src="wavs/p257_011_pfpl(qut).wav"> </audio></th>
+                <th><audio controls style="" src="wavs/p257_011_metricgan+(qut).wav"> </audio></th>
+                <th><audio controls style="" src="wavs/p257_011_dccrn(qut).wav"> </audio></th>
+                <th><audio controls style="" src="wavs/p257_011_tenet(qut).wav"> </audio></th>
+            </tr>
+        </table>
+
+    </div>
+</body>
+</html>
