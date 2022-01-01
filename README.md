@@ -1,4 +1,4 @@
-# TENET: A Time-reversal Enhancement Network for noise-robust ASR (ASRU 2021)
+## TENET: A Time-reversal Enhancement Network for noise-robust ASR (ASRU 2021)
 
 **The source code and pre-trained model will be released soon !**
 
