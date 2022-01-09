@@ -1,4 +1,4 @@
-## TENET: A Time-reversal Enhancement Network for noise-robust ASR
+# TENET: A Time-reversal Enhancement Network for noise-robust ASR (ASRU 2021)
 
 This is a PyTorch implementation of our paper: [TENET: A Time-reversal Enhancement Network for noise-robust ASR (ASRU 2021)](https://arxiv.org/abs/2107.01531).
   
