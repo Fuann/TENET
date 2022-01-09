@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "../../../../../../nas167/fuann"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
