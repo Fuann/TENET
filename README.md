@@ -8,7 +8,7 @@ Audio samples can be found from [here](https://fuann.github.io/TENET).
 
 ## Requirements
 
-see [requirements.txt](requirements)
+See [requirements.txt](requirements)
 
 ## Source
 
