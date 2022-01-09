@@ -1,12 +1,14 @@
 # TENET: A Time-reversal Enhancement Network for noise-robust ASR (ASRU 2021)
 
-A PyTorch implementation of our paper ["TENET: A Time-reversal Enhancement Network for noise-robust ASR"](https://arxiv.org/abs/2107.01531).
+- A PyTorch implementation of our paper ["TENET: A Time-reversal Enhancement Network for noise-robust ASR"](https://arxiv.org/abs/2107.01531).
   
-Audio samples can be found from [here](https://fuann.github.io/TENET).
+- Audio samples can be found from [here](https://fuann.github.io/TENET).
+
+- Pretrained model will be released soon !
 
 ## Requirements
 
-See [requirements.txt](requirements.txt)
+- See [requirements.txt](requirements.txt)
 
 ## Usage 
   
