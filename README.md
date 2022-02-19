@@ -4,14 +4,29 @@ A PyTorch implementation of our paper ["TENET: A Time-reversal Enhancement Netwo
   
 - Audio samples can be found from [here](https://fuann.github.io/TENET).
 
-- Pretrained model will be released soon !
+- Pretrained model weights can be downloaded from [here](https://drive.google.com/drive/folders/1BtO4XmgIxoJV3zIYRKmQqTbPvB5Vq84m?usp=sharing).
+
 
 ## Requirements
 
 - See [requirements.txt](requirements.txt)
 
 ## Usage 
-  
+
+#### Inference
+
+``` yaml
+Usage: ./inference.sh <noisy.scp> <cpt-dir> <dump-dir>
+  option: --ref-scp(given clean counterparts and calculate sisnr scores) 
+          --remove-wav(false)
+          --model(TENET)
+          --gpu (0) 
+          --fs (16000) 
+          --nj (1)
+```
+
+#### Training from scratch
+
 1. Download pretrained [wav2vec model](https://github.com/pytorch/fairseq/blob/main/examples/wav2vec/README.md#pre-trained-models-1) and put it in `pretrain/wav2vec_large.pt`
 
 2. Configure training settings and model hyperparameters from [nnet/conf.py](nnet/conf.py).  
