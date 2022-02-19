@@ -17,7 +17,7 @@ A PyTorch implementation of our paper ["TENET: A Time-reversal Enhancement Netwo
 
 ``` yaml
 Usage: ./inference.sh <noisy.scp> <cpt-dir> <dump-dir>
-  option: --ref-scp(given clean counterparts and calculate sisnr scores) 
+  option: --ref-scp(given clean counterparts and calculate pesq/sisnr metrics) 
           --remove-wav(false)
           --model(TENET)
           --gpu (0) 
